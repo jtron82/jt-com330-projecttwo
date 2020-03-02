@@ -6,19 +6,44 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles... */
 
+img {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
 #selfie {
-  	max-width: 100%;
   	width: 12.5em; /* 200px / 16 px = 12.5em */
   	height: auto;
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
   	padding-bottom: 1.5em;
 }
 
 #smash-logo {
-	max-width: 100%;
-	width: 48px;
+	width: 3em;
+	height: auto;
+}
+
+nav#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+nav#nav ul li {
+	display: inline;
+	margin: 10px 10px 0 0;
+}
+
+nav#nav ul li a {
+	display: inline-block;
+	background-color: red;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+	color: white;
 }
 
 body {
@@ -38,5 +63,15 @@ h2 {
 }
 
 figcaption {
+	text-align: center;
+}
+
+p {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+article {
+	padding: 48px;
 	text-align: center;
 }
