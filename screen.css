@@ -30,6 +30,10 @@ img {
 	height: auto;
 }
 
+#contact {
+	text-align: right;
+}
+
 nav#nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -66,6 +70,10 @@ h1 {
 h2 {
 	font-size: 50px;
 	text-align: center;
+}
+
+h3 {
+	font-size: 25px;
 }
 
 figcaption {
