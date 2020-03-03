@@ -24,14 +24,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 #contact {
 	text-align: right;
-	margin-right: 10px;
+	margin-right: 0.625em; /* 10px / 16px = 0.625em */
+}
+
+#intro {
+	margin-bottom: -3.125em; /* -50px / 16px = -3.125em */
 }
 
 .grid-container {
 	display: grid;
 	grid-template-columns: auto;
   	background-color: #808080;
-  	padding: 3em;
+  	padding: 3em; /* 48px / 16px = 3em */
 }
 
 .grid-item {
@@ -61,7 +65,7 @@ nav#nav ul li a {
 	background-color: red;
 	text-decoration: none;
 	list-style-type: none;
-	font-size: 20px;
+	font-size: 1.25em; /* 20px / 16px = 1.25em */ 
 	color: white;
 }
 
@@ -90,22 +94,22 @@ h1 {
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 3.125em; /* 50px / 16px = 3.125em */
 	text-align: center;
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 1.5625em; /* 25px / 16px = 1.5625em */
 }
 
 figcaption {
 	text-align: center;
-	padding: 10px;
+	padding: 0.625em; /* 10px / 16px = 0.625em */
 }
 
 p {
-	font-size: 20px;
-	padding: 10px;
+	font-size: 1.25em; /* 20px / 16px = 1.25em */
+	padding: 0.625em; /* 10px / 16px = 0.625em */
 }
 
 article {
@@ -115,5 +119,5 @@ article {
 
 footer {
 	text-align: right;
-	padding: 0.625em;
+	padding: 0.625em; /* 10px / 16px = 0.625em */
 }
